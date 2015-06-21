@@ -92,38 +92,6 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TAMU.GeoInnovation.AddressProcessing.Core">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\AddressProcessing\AddressProcessing.Core\build\2.9.3\release\TAMU.GeoInnovation.AddressProcessing.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Configurations">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Configurations\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Configurations.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Logging.TraceEvents">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Logging.TraceEvents\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Logging.TraceEvents.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Threading">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Threading\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Threading.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Data.Databases">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases\build\1.0.0\release\Tamu.GeoInnovation.Common.Data.Databases.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="TAMU.GeoInnovation.Common.Data.Databases.Runners">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases.Runners\build\1.0.0\release\TAMU.GeoInnovation.Common.Data.Databases.Runners.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="TAMU.GeoInnovation.PointIntersectors.Census">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census\build\1.0.0\release\TAMU.GeoInnovation.PointIntersectors.Census.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClasses\Census2010\AbstractCensus2010PointIntersectorTest.cs" />
@@ -167,6 +135,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AddressProcessing.Core\src\Main\AddressProcessing.Core.Dev.csproj">
+      <Project>{D971C282-ECC4-4C07-A481-5BC862934B96}</Project>
+      <Name>AddressProcessing.Core.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Logging.TraceEvents\Src\Main\Common.Core.Logging.TraceEvents.Dev.csproj">
+      <Project>{9F19062E-A949-4FF8-8DC1-7239F06348DF}</Project>
+      <Name>Common.Core.Logging.TraceEvents.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Threading\Src\Main\Common.Core.Threading.Dev.csproj">
+      <Project>{FE6237ED-DCBB-43F5-A216-27CB99BEAFDB}</Project>
+      <Name>Common.Core.Threading.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
+      <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
+      <Name>Common.Core.Utils.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Data.Databases.Runners\Src\Main\Common.Data.Databases.Runners.Dev.csproj">
+      <Project>{5A003DA0-31D1-48F6-81F7-0A0301362AC9}</Project>
+      <Name>Common.Data.Databases.Runners.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Data.Databases\Src\Main\Common.Data.Databases.Dev.csproj">
+      <Project>{A7DF15F2-1210-4431-B223-A3A2810DC14A}</Project>
+      <Name>Common.Data.Databases.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\PointIntersectors.Census\src\Main\PointIntersectors.Census.Dev.csproj">
+      <Project>{5328FADB-9D7C-410A-877E-F03E08367D9C}</Project>
+      <Name>PointIntersectors.Census.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
