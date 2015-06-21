@@ -1,7 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\build\v1.0\bin\AnyCPU\debug\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\build\v1.0\bin\AnyCPU\debug\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.pdb
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\src\obj\Debug\PointIntersectors.Census.SqlServer.Test.csprojResolveAssemblyReference.cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\src\obj\Debug\TAMU.GeoInnovation.PointIntersectors.Census.Panels.OutputFieldPanels.FrmOutputCensusFieldsPanelTesting.resources
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\src\obj\Debug\PointIntersectors.Census.SqlServer.Test.csproj.GenerateResource.Cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\src\obj\Debug\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\PointIntersectors.Census.SqlServer.Test\src\obj\Debug\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.pdb
