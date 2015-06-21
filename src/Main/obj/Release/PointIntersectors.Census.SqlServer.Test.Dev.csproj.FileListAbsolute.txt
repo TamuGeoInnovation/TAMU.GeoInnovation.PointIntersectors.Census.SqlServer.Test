@@ -1,0 +1,5 @@
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors.Census.SqlServer.Test\build\1.0.0\AnyCPU\release\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.dll
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors.Census.SqlServer.Test\src\Main\obj\Release\PointIntersectors.Census.SqlServer.Test.Dev.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors.Census.SqlServer.Test\src\Main\obj\Release\TAMU.GeoInnovation.PointIntersectors.Census.Panels.OutputFieldPanels.FrmOutputCensusFieldsPanelTesting.resources
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors.Census.SqlServer.Test\src\Main\obj\Release\PointIntersectors.Census.SqlServer.Test.Dev.csproj.GenerateResource.Cache
+C:\DevSource\Tamu\GeoInnovation\PointIntersectors.Census.SqlServer.Test\src\Main\obj\Release\TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Test.dll
