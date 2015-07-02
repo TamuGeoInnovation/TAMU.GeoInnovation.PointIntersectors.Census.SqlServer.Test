@@ -147,6 +147,10 @@
       <Name>Common.Core.Logging.TraceEvents.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Threading\Src\Main\Common.Core.Threading.Dev.csproj">
+      <Project>{FE6237ED-DCBB-43F5-A216-27CB99BEAFDB}</Project>
+      <Name>Common.Core.Threading.Dev</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
       <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
       <Name>Common.Core.Utils.Dev</Name>
