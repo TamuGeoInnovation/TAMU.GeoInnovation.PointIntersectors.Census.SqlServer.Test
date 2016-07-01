@@ -39,6 +39,10 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Census2010
             : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
         { }
 
+        public SqlServerCensus2010PointIntersectorTest(Version version, IQueryManager blockFilesQueryManager, IQueryManager stateFilesQueryManager, IQueryManager countryFilesQueryManager)
+           : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
+        { }
+
 
         public override CensusRecord GetRecord(double longitude, double latitude, string state, string Level1, string Level2, string Level3, string Level4, double xmin, double ymin, double xmax, double ymax, bool IsGeomterySelected)
         {

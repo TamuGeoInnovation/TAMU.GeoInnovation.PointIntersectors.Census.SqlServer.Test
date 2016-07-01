@@ -42,6 +42,12 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.Census2010
             CensusYear = CensusYear.TwoThousandTen;
         }
 
+        public AbstractCensus2010PointIntersectorTest(Version version, IQueryManager blockFilesQueryManager, IQueryManager stateFilesQueryManager, IQueryManager countryFilesQueryManager)
+            : base(version, blockFilesQueryManager, stateFilesQueryManager, countryFilesQueryManager)
+        {
+            CensusYear = CensusYear.TwoThousandTen;
+        }
+
 
         public List<string> Grid_Densities = new List<string>(new string[] { "LOW", "MEDIUM", "HIGH" });
 
