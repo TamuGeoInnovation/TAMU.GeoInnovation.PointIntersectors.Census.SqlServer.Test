@@ -1,21 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using USC.GISResearchLab;
-using USC.GISResearchLab.Common.Databases.QueryManagers;
-using USC.GISResearchLab.Common.Core.Databases;
-using System.Data.SqlClient;
-using USC.GISResearchLab.Common.Utils.Databases;
 using System.Data;
-using USC.GISResearchLab.Common.Utils.Strings;
-using USC.GISResearchLab.AddressProcessing.Core.Standardizing;
-using USC.GISResearchLab.AddressProcessing.Core.AddressNormalization.Implementations;
-using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.AbstractClasses;
-using USC.GISResearchLab.Census.Core.Configurations.ServerConfigurations;
 using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
-using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersectors.Implementations;
-using USC.GISResearchLab.AddressProcessing.Core.Standardizing.StandardizedAddresses.Lines.LastLines;
+using USC.GISResearchLab.Census.Core.Configurations.ServerConfigurations;
+using USC.GISResearchLab.Common.Databases.QueryManagers;
 
 
 namespace TAMU.GeoInnovation.PointIntersectors.Census.Census2010

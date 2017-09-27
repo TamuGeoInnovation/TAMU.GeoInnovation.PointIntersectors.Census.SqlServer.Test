@@ -1,34 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Data;
-using System.Threading;
-using System.Diagnostics;
 using System.ComponentModel;
-
-using USC.GISResearchLab.Common.Databases.SchemaManagers;
-using USC.GISResearchLab.Common.Databases.TypeConverters;
-using USC.GISResearchLab.Common.Databases.DataTables;
-using USC.GISResearchLab.Common.Utils.Databases.TableDefinitions;
-using USC.GISResearchLab.Common.FieldMappings;
-using USC.GISResearchLab.Common.Databases.FieldMappings;
-
-using USC.GISResearchLab.Common.Databases.Runners.AbstractClasses;
-using USC.GISResearchLab.Census.Runners.Queries.Options;
-using USC.GISResearchLab.Common.Utils.Databases;
-
-using USC.GISResearchLab.Common.Diagnostics.TraceEvents;
-using USC.GISResearchLab.Common.Threading.ProgressStates;
-
-using USC.GISResearchLab.Common.Databases.DataReaders;
+using System.Data;
 using System.Data.SqlClient;
-using USC.GISResearchLab.Common.Core.Threading.ThreadPoolWaits;
-using USC.GISResearchLab.Common.Databases.QueryManagers;
-using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces;
-using USC.GISResearchLab.Common.Core.Databases;
+using System.Diagnostics;
+using System.Threading;
 using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
-using USC.GISResearchLab.AddressProcessing.Core.Standardizing.StandardizedAddresses.Lines.LastLines;
+using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces;
 using TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Census2010;
+using USC.GISResearchLab.AddressProcessing.Core.Standardizing.StandardizedAddresses.Lines.LastLines;
+using USC.GISResearchLab.Census.Runners.Queries.Options;
+using USC.GISResearchLab.Common.Core.Databases;
+using USC.GISResearchLab.Common.Databases.FieldMappings;
+using USC.GISResearchLab.Common.Databases.Runners.AbstractClasses;
+using USC.GISResearchLab.Common.Diagnostics.TraceEvents;
+using USC.GISResearchLab.Common.Utils.Databases;
 //using USC.GISResearchLab.Common.Databases.Panels.DatabaseTableChoosers;
 
 namespace USC.GISResearchLab.Census.Runners.Databases

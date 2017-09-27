@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace USC.GISResearchLab.Census.Runners.Queries.Options
 {
     public class SingleIntersectTest : SingleIntersect
