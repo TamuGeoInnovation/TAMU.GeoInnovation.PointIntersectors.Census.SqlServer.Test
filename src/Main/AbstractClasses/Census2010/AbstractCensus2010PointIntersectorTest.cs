@@ -21,7 +21,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.Census2010
         public AbstractCensus2010PointIntersectorTest()
             : base()
         {
-            
+
         }
 
         public AbstractCensus2010PointIntersectorTest(double version, IQueryManager blockFilesQueryManager, IQueryManager stateFilesQueryManager, IQueryManager countryFilesQueryManager)

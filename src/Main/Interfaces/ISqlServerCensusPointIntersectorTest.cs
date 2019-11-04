@@ -3,7 +3,7 @@ using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
 
 namespace TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces
 {
-    public interface ISqlServerCensusPointIntersectorTest: ICensusPointIntersector
+    public interface ISqlServerCensusPointIntersectorTest : ICensusPointIntersector
     {
 
         #region Properties

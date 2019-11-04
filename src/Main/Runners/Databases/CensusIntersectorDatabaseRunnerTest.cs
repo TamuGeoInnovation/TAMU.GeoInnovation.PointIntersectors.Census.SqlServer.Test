@@ -426,14 +426,14 @@ namespace USC.GISResearchLab.Census.Runners.Databases
                                                         if (TraceSource != null)
                                                         {
                                                             TraceSource.TraceEvent(TraceEventType.Information, (int)ProcessEvents.Running, " - {0}, {1}, {2}, {3}, {4}, {5}, {6}",
-                                                             new object[] { 
-                                                                                "200", 
-                                                                                "Success", 
-                                                                                result.Block, 
+                                                             new object[] {
+                                                                                "200",
+                                                                                "Success",
+                                                                                result.Block,
                                                                                 result.BlockGroup,
                                                                                 result.Tract,
-                                                                                result.CountyFips, 
-                                                                                result.StateFips, 
+                                                                                result.CountyFips,
+                                                                                result.StateFips,
                                                         });
                                                         }
 
@@ -624,7 +624,7 @@ namespace USC.GISResearchLab.Census.Runners.Databases
 
                         sql += " UPDATE " + DatabaseUtils.AsDbTableName(BatchOptions.Table, true) + " SET ";
 
-                      
+
 
                         /* Eliminating all the redundant output columns except the TimeTaken since that is the only one needed*/
 
@@ -641,9 +641,9 @@ namespace USC.GISResearchLab.Census.Runners.Databases
 
                         /* Eliminating all the redundant output columns except the TimeTaken*/
 
-                        
+
                         cmd.Parameters.Add(SqlParameterUtils.BuildSqlParameter("FieldTimeTaken", SqlDbType.Decimal, censusRecord.TimeTaken));
-                        
+
                         cmd.Parameters.Add(SqlParameterUtils.BuildSqlParameter("ID", SqlDbType.VarChar, recordId));
 
                         DBManagerInputDataUpdate.AddParameters(cmd.Parameters);

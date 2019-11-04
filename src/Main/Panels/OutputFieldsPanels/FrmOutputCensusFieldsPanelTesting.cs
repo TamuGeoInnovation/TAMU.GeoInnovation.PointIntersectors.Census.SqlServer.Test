@@ -1,17 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+using USC.GISResearchLab.Common.Databases.FieldMappings;
 using USC.GISResearchLab.Common.Databases.SchemaManagers;
 using USC.GISResearchLab.Common.Databases.TypeConverters;
-using USC.GISResearchLab.Common.Databases.DataTables;
-using USC.GISResearchLab.Common.Utils.Databases.TableDefinitions;
 using USC.GISResearchLab.Common.FieldMappings;
-using USC.GISResearchLab.Common.Databases.FieldMappings;
 
 namespace TAMU.GeoInnovation.PointIntersectors.Census.Panels.OutputFieldPanels
 {
@@ -84,7 +77,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.Panels.OutputFieldPanels
             }
         }
 
-        public void SetComboBoxItems(ComboBox cbo, string [] items)
+        public void SetComboBoxItems(ComboBox cbo, string[] items)
         {
             cbo.Items.Clear();
             cbo.Items.AddRange(items);
@@ -94,7 +87,7 @@ namespace TAMU.GeoInnovation.PointIntersectors.Census.Panels.OutputFieldPanels
         public void BindComboBox(ComboBox cbo, object dataSource)
         {
             cbo.DataBindings.Add("Text", dataSource, "Value", true, DataSourceUpdateMode.OnPropertyChanged);
-            SetSelectedComboBoxItem(cbo, txtPrefix.Text +Prefix + ((FieldMapping)dataSource).DefaultValue);
+            SetSelectedComboBoxItem(cbo, txtPrefix.Text + Prefix + ((FieldMapping)dataSource).DefaultValue);
         }
 
         public void SetSelectedComboBoxItem(ComboBox cbo, string value)
