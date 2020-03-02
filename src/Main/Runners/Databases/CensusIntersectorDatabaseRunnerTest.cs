@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Threading;
 using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
-using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces;
+using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces.v4_0_5;
 using TAMU.GeoInnovation.PointIntersectors.Census.SqlServer.Census2010;
 using USC.GISResearchLab.AddressProcessing.Core.Standardizing.StandardizedAddresses.Lines.LastLines;
 using USC.GISResearchLab.Census.Runners.Queries.Options;

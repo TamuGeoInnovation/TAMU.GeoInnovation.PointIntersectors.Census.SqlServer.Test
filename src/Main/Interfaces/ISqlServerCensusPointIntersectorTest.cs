@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using TAMU.GeoInnovation.PointIntersectors.Census.OutputData.CensusRecords;
+using TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces.v4_0_5;
 
 namespace TAMU.GeoInnovation.PointIntersectors.Census.PointIntersecters.Interfaces
 {
